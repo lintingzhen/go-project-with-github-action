@@ -1,4 +1,4 @@
 builds:
   - ldflags:
       - -X main.version=vx.0.2
-      - -X sub.revision={{.ShortCommit}}
+      - -X go-project-with-github-action/sub.revision={{.ShortCommit}}

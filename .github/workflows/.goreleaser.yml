@@ -1,3 +1,0 @@
-builds:
-  - ldflags:
-      - -X main.version=v0.0.2
